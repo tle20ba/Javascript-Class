@@ -7,6 +7,7 @@ function logText() {
     let paragraphElement = document.getElementById("paragraph1");
 
     paragraphElement.innerText = str;
+    paragraphElement.style.backgroundColor = "royalblue";
 
     console.log("paragraph id is: " + paragraphElement.id);
 }
